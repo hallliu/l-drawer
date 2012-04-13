@@ -1,2 +1,4 @@
 Contents of lmExamples/ taken from lab 7 in CMSC16200 (files for testing the visualizer)
 Tested to run with ghc 7.4.1
+Compile with `ghc lsystem.hs`
+Run with `lsystem <filename>`
