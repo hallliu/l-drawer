@@ -1,0 +1,11 @@
+limit = 6
+angle = 25.7
+start = F
+
+%%
+
+F -> F[+F]F[-F]F;
+
+%%
+
+F => "forward 1";

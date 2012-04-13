@@ -1,0 +1,13 @@
+limit = 6
+angle = 30
+start = X
+
+%%
+
+X -> F[[-X]F[+X]]F;
+F -> F[[+X]F[-X]]F;
+
+%%
+
+X => "forward 1;right 30;forward 1";
+F => "forward 1";

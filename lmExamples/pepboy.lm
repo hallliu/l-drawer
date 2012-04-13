@@ -1,0 +1,16 @@
+limit = 15
+angle = 60
+start = A
+
+%%
+
+A -> A-B+;
+B -> -C-A;
+C -> -B++[C];
+
+
+%%
+
+A => "forward 1";
+B => "forward 1";
+C => "forward 1";

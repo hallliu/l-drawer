@@ -1,0 +1,13 @@
+limit = 9
+angle = 60
+start = A
+
+%%
+
+A -> B-A-B;
+B -> A+B+A;
+
+%%
+
+A => "forward 1";
+B => "forward 1";

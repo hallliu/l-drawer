@@ -1,0 +1,13 @@
+limit = 10
+angle = 90
+start = L
+
+%%
+
+L -> L+R+;
+R -> -L-R;
+
+%%
+
+L => "forward 1";
+R => "forward 1";

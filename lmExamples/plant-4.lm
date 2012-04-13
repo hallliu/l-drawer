@@ -1,0 +1,11 @@
+limit = 4
+angle = 22.5
+start = F
+
+%%
+
+F -> FF-[-F+F+F]+[+F-F-F];
+
+%%
+
+F => "forward 1";

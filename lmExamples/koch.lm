@@ -1,0 +1,11 @@
+limit = 5
+angle = 90
+start = F
+
+%%
+
+F -> F+F-F-F+F;
+
+%%
+
+F => "forward 1";

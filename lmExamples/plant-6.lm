@@ -1,0 +1,13 @@
+limit = 7
+angle = 20
+start = X
+
+%%
+
+X -> F[+X][-X]FX;
+F -> FF;
+
+%%
+
+X => "forward 1";
+F => "forward 1";
